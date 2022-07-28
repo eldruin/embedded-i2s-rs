@@ -1,0 +1,21 @@
+[package]
+name = "embedded-i2s"
+version = "0.1.0"
+authors = ["Diego Barrios Romero <eldruin@gmail.com>"]
+repository = "https://github.com/eldruin/embedded-i2s-rs"
+license = "MIT OR Apache-2.0"
+description = "An embedded Inter-IC Sound (I2S) abstraction layer."
+readme = "README.md"
+keywords = ["i2s", "hal", "IO"]
+categories = ["embedded", "hardware-support", "no-std"]
+homepage = "https://github.com/eldruin/embedded-i2s-rs"
+documentation = "https://docs.rs/embedded-i2s"
+include = [
+    "/**/*.rs",
+    "/Cargo.toml",
+    "/README.md",
+    "/CHANGELOG.md",
+    "/LICENSE-MIT",
+    "/LICENSE-APACHE",
+]
+edition = "2018"
